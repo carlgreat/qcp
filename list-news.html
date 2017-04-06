@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
-        <title>青春派</title>
+        <title>青春派 新闻列表</title>
         <!-- 引入 WeUI -->
         <link rel="stylesheet" href="style/weui.min.css"/>
         <link rel="stylesheet" href="style/style.css" />
@@ -13,70 +13,13 @@
         <div class="weui-toptips weui-toptips_warn js_tooltips">错误提示</div>
         <div class="container" id="container"></div>
         <div class="page">
-            <img src="images/banner.png" width="100%" />
-            <div class="weui-grids">
-                <a href="javascript:;" class="weui-grid">
-                    <div class="weui-grid__icon">
-                        <img src="./images/icon_tabbar.png" alt="">
-                    </div>
-                    <p class="weui-grid__label">活动</p>
-                </a>
-                <a href="javascript:;" class="weui-grid">
-                    <div class="weui-grid__icon">
-                        <img src="./images/icon_tabbar.png" alt="">
-                    </div>
-                    <p class="weui-grid__label">达人</p>
-                </a>
-                <a href="javascript:;" class="weui-grid">
-                    <div class="weui-grid__icon">
-                        <img src="./images/icon_tabbar.png" alt="">
-                    </div>
-                    <p class="weui-grid__label">赛事</p>
-                </a>
-            </div>
-            <div class="weui-panel">
-                <div class="weui-panel__hd">最新活动 Latest Activities</div>
-                <div class="weui-panel__bd">
-                    <div class="weui-media-box weui-media-box_text">
-                        <a href=""><img src="images/banner.png" width="100%" /></a>
-                        <h4 class="weui-media-box__title">活动标题活动标题活动标题活动标题</h4>
-                        <ul class="weui-media-box__info">
-                            <li class="weui-media-box__info__meta">03月14日 08:30</li>
-                            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">山东理工大学东门</li>
-                            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">萌芽科技</li>
-                        </ul>
-                    </div>
-                    <div class="weui-media-box weui-media-box_text">
-                        <a href=""><img src="images/banner.png" width="100%" /></a>
-                        <h4 class="weui-media-box__title">活动标题活动标题活动标题活动标题</h4>
-                        <ul class="weui-media-box__info">
-                            <li class="weui-media-box__info__meta">03月14日 08:30</li>
-                            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">山东理工大学东门</li>
-                            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">萌芽科技</li>
-                        </ul>
-                    </div>
-                    <div class="weui-media-box weui-media-box_text">
-                        <a href=""><img src="images/banner.png" width="100%" /></a>
-                        <h4 class="weui-media-box__title">活动标题活动标题活动标题活动标题</h4>
-                        <ul class="weui-media-box__info">
-                            <li class="weui-media-box__info__meta">03月14日 08:30</li>
-                            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">山东理工大学东门</li>
-                            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">萌芽科技</li>
-                        </ul>
-                    </div>
-                    <div class="weui-media-box weui-media-box_text">
-                        <a href=""><img src="images/banner.png" width="100%" /></a>
-                        <h4 class="weui-media-box__title">活动标题活动标题活动标题活动标题</h4>
-                        <ul class="weui-media-box__info">
-                            <li class="weui-media-box__info__meta">03月14日 08:30</li>
-                            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">山东理工大学东门</li>
-                            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">萌芽科技</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="page__hd">
+                <h1 class="page__title">
+                    最新动态
+                </h1>
+                <p class="page__desc">是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一。</p>
             </div>
             <div class="weui-panel weui-panel_access">
-                <div class="weui-panel__hd">活动动态 Latest News</div>
                 <div class="weui-panel__bd">
                     <a href="" class="weui-media-box weui-media-box_appmsg">
                         <div class="weui-media-box__hd">
@@ -118,13 +61,22 @@
             </div>
             <div class="weui-panel__ft">
                 <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link">
-                    <div class="weui-cell__bd">查看更多</div>
+                    <div class="weui-cell__bd">加载更多</div>
                     <span class="weui-cell__ft"></span>
                 </a>    
             </div>
-            
+            <div class="weui-loadmore">
+                <i class="weui-loading"></i>
+                <span class="weui-loadmore__tips">正在加载</span>
+            </div>
+            <div class="weui-loadmore weui-loadmore_line">
+                <span class="weui-loadmore__tips">暂无数据</span>
+            </div>
+            <div class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+                <span class="weui-loadmore__tips"></span>
+            </div>
             <div class="page__bd page__bd_spacing">
-                adsfadsfadfs
+                Ad2...
             </div>
 			<div class="weui-tab">
 				<div class="weui-tabbar">
