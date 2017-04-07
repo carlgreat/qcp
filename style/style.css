@@ -414,3 +414,15 @@ ul {
 	-webkit-animation: b .2s forwards;
 	animation: b .2s forwards
 }
+.act-info{
+    margin: 10px 0;
+    background: #f1FCFF;
+    border-top:1px dashed rgba(7, 187, 175, 0.3);
+    border-bottom:1px dashed rgba(7, 187, 175, 0.3);
+    padding:6px;
+    font-size:14px;
+    color: #427ab2
+}
+.act-btn{
+	padding:10px;
+}
