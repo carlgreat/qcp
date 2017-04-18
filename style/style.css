@@ -426,3 +426,13 @@ ul {
 .act-btn{
 	padding: 3px;
 }
+.act-title{
+    position: absolute;
+    margin-top: -50px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: normal;
+    line-height: 19px;
+    text-shadow: 1px 1px 1px #000;
+}
